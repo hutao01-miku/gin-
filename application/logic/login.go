@@ -2,8 +2,9 @@ package logic
 
 import (
 	"awesomeProject1/application/model"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func GetLogin(context *gin.Context) {
